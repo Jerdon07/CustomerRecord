@@ -6,10 +6,6 @@ Route::get('/', function () {
     return view('balancesheet');
 });
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/customerBalance', function () {
+    return view('customerBalance');
 });
